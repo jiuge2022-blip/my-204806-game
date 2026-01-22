@@ -1,0 +1,22 @@
+{
+  "name": "2048 Solana",
+  "short_name": "2048",
+  "description": "2048 game with Solana on-chain scoring",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf8ef",
+  "theme_color": "#faf8ef",
+  "icons": [
+    {
+      "src": "meta/apple-touch-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
