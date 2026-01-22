@@ -7,7 +7,7 @@ function SolanaManager() {
   // Initialize connection to Solana mainnet-beta
   if (window.solanaWeb3) {
     this.connection = new window.solanaWeb3.Connection(
-      'https://api.mainnet-beta.solana.com',
+      'https://solana-mainnet.g.allthatnode.com/full/evm' 或 'https://api.mainnet-beta.solana.com',
       'confirmed'
     );
   }
@@ -199,4 +199,5 @@ SolanaManager.prototype.saveScoreToChain = function(score) {
         alert('上链失败：' + (err.message || err));
       }
     });
+
 };
